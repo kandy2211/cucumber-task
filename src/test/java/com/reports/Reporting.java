@@ -6,11 +6,18 @@ import java.util.List;
 
 import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
-
+/**
+ * 
+ * @author Kandasamy
+ * @description used to maintain jvm reporting class
+ * @date 07/09/2022
+ *
+ */
 public class Reporting {
 	public static void generateJVMreport(String jsonfile) {
 
 		File file = new File(System.getProperty("user.dir")+"\\target");
+		
 
 		Configuration configuration = new Configuration(file, "adcatin hotel automation" );
 

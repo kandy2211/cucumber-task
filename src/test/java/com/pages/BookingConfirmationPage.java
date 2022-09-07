@@ -6,6 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.base.BaseClass;
 
+/**
+ * 
+ * @author Kandasamy
+ * @description used to maintain booking confirmation page web elements
+ * @date 07/09/2022
+ */
 public class BookingConfirmationPage extends BaseClass {
 
 	public BookingConfirmationPage() {

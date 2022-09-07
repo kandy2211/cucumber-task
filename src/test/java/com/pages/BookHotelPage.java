@@ -4,8 +4,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.base.BaseClass;
 
+import com.base.BaseClass;
+/**
+ * 
+ * @author Kandasamy
+ * @description used to maintain book hotel web elements
+ * @date 07/09/2022
+ *
+ */
 public class BookHotelPage extends BaseClass {
 	public BookHotelPage() {
 		PageFactory.initElements(driver, this);

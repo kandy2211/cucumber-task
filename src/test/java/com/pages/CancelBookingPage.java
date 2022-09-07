@@ -6,6 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.base.BaseClass;
 
+/**
+ * 
+ * @author Kandasamy
+ * @description used to maintain cancel booking page web elements
+ * @date 07/09/2022
+ */
 public class CancelBookingPage extends BaseClass {
 
 	public CancelBookingPage() {

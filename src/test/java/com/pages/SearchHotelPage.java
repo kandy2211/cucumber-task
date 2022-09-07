@@ -3,9 +3,13 @@ package com.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.base.BaseClass;
-
+/**
+ * 
+ * @author Kandasamy
+ * @description used to maintain search hotel page web elements
+ * @date 07/09/2022
+ */
 public class SearchHotelPage extends BaseClass {
 
 	public SearchHotelPage() {

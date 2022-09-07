@@ -6,6 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.base.BaseClass;
 
+/**
+ * 
+ * @author Kandasamy
+ * @description used to maintain select hotel page web elements 
+ * @date 07/09/2022
+ */
 public class SelectHotelPage extends BaseClass {
 
 	public SelectHotelPage() {

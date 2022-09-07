@@ -10,6 +10,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.base.BaseClass;
 
+/**
+ * 
+ * @author Kandasamy
+ * @description used to maintain Login page webelements 
+ * @date 07/09/2022
+ */
 public class LoginPage extends BaseClass {
 
 	public LoginPage() {
@@ -27,8 +33,8 @@ public class LoginPage extends BaseClass {
 	@FindBy(id = "login")
 
 	private WebElement btnLogin;
-	
-	@FindBy(xpath="//b[contains (text(),'Invalid Login details')]")
+
+	@FindBy(xpath = "//b[contains (text(),'Invalid Login details')]")
 	private WebElement errorMsg;
 
 	public WebElement getErrorMsg() {
@@ -58,37 +64,15 @@ public class LoginPage extends BaseClass {
 	}
 
 	public void loginWithEnter(String username, String password) throws AWTException {
-		
+
 		elementSendkeys(getTxtUserName(), username);
 
 		elementSendkeys(getTxtPassword(), password);
-		
-	Robot robot = new Robot();
-	robot.keyPress(KeyEvent.VK_ENTER);
-	robot.keyPress(KeyEvent.VK_ENTER);
+
+		Robot robot = new Robot();
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyPress(KeyEvent.VK_ENTER);
 
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }
